@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder.UnitTests", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{4CDB95B4-DC73-460B-AD36-A461281D468F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder.Examples.UsingXunit", "example\FluentBuilder.Examples.UsingXunit\FluentBuilder.Examples.UsingXunit.csproj", "{5A37B8E0-1D7F-44E1-910A-8874B8B194F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder.Examples.UsingMoq", "example\FluentBuilder.Examples.UsingMoq\FluentBuilder.Examples.UsingMoq.csproj", "{5A37B8E0-1D7F-44E1-910A-8874B8B194F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder.Examples.Common", "example\FluentBuilder.Examples.Common\FluentBuilder.Examples.Common.csproj", "{11DE9CDA-4D22-4CF9-9ADE-A663B970587B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder.Examples.Common", "example\FluentBuilder.Examples.Common\FluentBuilder.Examples.Common.csproj", "{11DE9CDA-4D22-4CF9-9ADE-A663B970587B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,7 +3,7 @@ using FluentBuilder.Examples.Common.Contracts;
 using FluentBuilder.Examples.Common.Sut;
 using Xunit;
 
-namespace FluentBuilder.Examples.UsingXunit.BeforeRefactoring
+namespace FluentBuilder.Examples.UsingMoq.BeforeRefactoring
 {
     // TODO: Write summary comment
     public class ClassWithoutDependenciesTests

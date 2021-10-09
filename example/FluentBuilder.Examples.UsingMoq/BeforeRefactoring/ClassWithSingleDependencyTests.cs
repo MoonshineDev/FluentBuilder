@@ -5,7 +5,7 @@ using FluentBuilder.Examples.Common.Sut;
 using Moq;
 using Xunit;
 
-namespace FluentBuilder.Examples.UsingXunit.BeforeRefactoring
+namespace FluentBuilder.Examples.UsingMoq.BeforeRefactoring
 {
     // TODO: Write summary comment
     public class ClassWithSingleDependencyTests
