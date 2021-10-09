@@ -20,4 +20,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\FluentBuilder\FluentBuilder.csproj" />
+    <ProjectReference Include="..\FluentBuilder.Examples.Common\FluentBuilder.Examples.Common.csproj" />
+  </ItemGroup>
+
 </Project>
