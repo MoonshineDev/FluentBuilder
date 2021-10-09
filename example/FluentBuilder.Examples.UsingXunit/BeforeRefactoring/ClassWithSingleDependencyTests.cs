@@ -7,6 +7,7 @@ using Xunit;
 
 namespace FluentBuilder.Examples.UsingXunit.BeforeRefactoring
 {
+    // TODO: Write summary comment
     public class ClassWithSingleDependencyTests
     {
         private readonly Mock<IDoSomething> _doSomething;
@@ -23,5 +24,8 @@ namespace FluentBuilder.Examples.UsingXunit.BeforeRefactoring
         {
             _sut.Should().NotBeNull();
         }
+
+        // TODO: Add tests to expose setup usage
+        // TODO: Add tests to expose verify usage
     }
 }
