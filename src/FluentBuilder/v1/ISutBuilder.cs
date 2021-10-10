@@ -1,7 +1,7 @@
 ﻿namespace FluentBuilder.v1
 {
     /// <summary>
-    /// Builder for SUT classes, creates instances of <typeparamref name="TSut"/>.
+    /// Builder for SUT, creates instances of <typeparamref name="TSut"/>.
     /// </summary>
     /// <typeparam name="TSut">SUT instance.</typeparam>
     public interface ISutBuilder<TSut>

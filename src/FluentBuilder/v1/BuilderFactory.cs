@@ -7,10 +7,10 @@
     {
         // TODO: Setup SyntaxListener to look for method calls of this method, in order to generate the appropriate builders.
         /// <summary>
-        /// Create an auto-generated builder for the SUT class <typeparamref name="TSut"/>.
+        /// Create an auto-generated builder for SUT <typeparamref name="TSut"/> instances.
         /// </summary>
-        /// <typeparam name="TSut">SUT class for which the builder should create.</typeparam>
-        /// <returns>Builder of SUT class <typeparamref name="TSut"/> instances.</returns>
+        /// <typeparam name="TSut">SUT for which the builder should create.</typeparam>
+        /// <returns>New builder of SUT <typeparamref name="TSut"/> instances.</returns>
         public static ISutBuilder<TSut> CreateSutBuilder<TSut>()
         {
             // TODO: Implement factory
