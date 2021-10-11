@@ -7,7 +7,7 @@ using Xunit;
 
 namespace FluentBuilder.Examples.UsingMoq.BeforeRefactoring
 {
-    // TODO: Write summary comment
+    // TODO: #17 Write summary comment
     public class ClassWithSingleDependencyTests
     {
         private readonly Mock<IDoSomething> _doSomething;
@@ -25,7 +25,7 @@ namespace FluentBuilder.Examples.UsingMoq.BeforeRefactoring
             _sut.Should().NotBeNull();
         }
 
-        // TODO: Add tests to expose setup usage
-        // TODO: Add tests to expose verify usage
+        // TODO: #18 Add tests to expose setup usage
+        // TODO: #19 Add tests to expose verify usage
     }
 }
