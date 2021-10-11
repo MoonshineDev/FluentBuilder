@@ -5,7 +5,7 @@ using Xunit;
 
 namespace FluentBuilder.Examples.UsingMoq.BeforeRefactoring
 {
-    // TODO: Write summary comment
+    // TODO: #17 Write summary comment
     public class ClassWithoutDependenciesTests
     {
         private readonly IContract _sut;
