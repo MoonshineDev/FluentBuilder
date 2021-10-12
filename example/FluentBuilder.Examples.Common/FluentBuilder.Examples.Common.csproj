@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <InternalsVisibleTo Include="FluentBuilder.Examples.UsingMoq"/>
+    <InternalsVisibleTo Include="DynamicProxyGenAssembly2"/>
   </ItemGroup>
 
 </Project>
